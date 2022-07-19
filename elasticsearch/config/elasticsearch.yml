@@ -2,6 +2,10 @@
 ## Default Elasticsearch configuration from Elasticsearch base image.
 ## https://github.com/elastic/elasticsearch/blob/master/distribution/docker/src/docker/config/elasticsearch.yml
 #
+# doc: https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html
+# 
 cluster.name: "docker-cluster"
 network.host: 0.0.0.0
+# if not set, it uses docker internal host which is not reachable
+network.publish_host: localhost 
 
