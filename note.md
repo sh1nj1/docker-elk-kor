@@ -4,3 +4,8 @@
 
 `docker-componse build && docker-componse up -d`
 
+# Logstash 
+
+* message 가 json 형태로 보내지는 것으로 기본 설정
+
+
